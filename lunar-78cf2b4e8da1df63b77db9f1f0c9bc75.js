@@ -1919,7 +1919,7 @@ requestAnimFrame(rf), $(function() {
     var y = new Image;
     y.onload = function() {
         setTimeout(f, 500)
-    }, y.src = "beanie.gif";
+    }, y.src = "beanie.png";
     var P = !0,
         b = function() {
             if (P) {
@@ -3889,7 +3889,7 @@ requestAnimFrame(rf), $(function() {
     var y = new Image;
     y.onload = function() {
         setTimeout(f, 500)
-    }, y.src = "beanie.gif";
+    }, y.src = "beanie.png";
     var P = !0,
         b = function() {
             if (P) {
