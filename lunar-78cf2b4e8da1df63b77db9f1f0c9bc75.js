@@ -1915,7 +1915,7 @@ requestAnimFrame(rf), $(function() {
     setInterval(c, 10), setInterval(m, 100), move_rocket_interval = setInterval(u, 1e3), setInterval(h, 2500);
     var v = setInterval(l, 2500),
         g = new Image;
-    g.onload = d, g.src = "moon.png";
+    g.onload = d, g.src = "rickrolled.gif";
     var y = new Image;
     y.onload = function() {
         setTimeout(f, 500)
@@ -3885,7 +3885,7 @@ requestAnimFrame(rf), $(function() {
     setInterval(c, 10), setInterval(m, 100), move_rocket_interval = setInterval(u, 1e3), setInterval(h, 2500);
     var v = setInterval(l, 2500),
         g = new Image;
-    g.onload = d, g.src = "moon.png";
+    g.onload = d, g.src = "rickrolled.gif";
     var y = new Image;
     y.onload = function() {
         setTimeout(f, 500)
