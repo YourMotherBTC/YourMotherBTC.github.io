@@ -3817,7 +3817,7 @@ var rf = function() {
     cycle += .01, requestAnimFrame(rf)
 };
 requestAnimFrame(rf), $(function() {
-    if (-1 == navigator.userAgent.indexOf("Chrome") && -1 == navigator.userAgent.indexOf("Firefox")) return void $("body").html("Please use Chrome or Firefox.");
+
     var t = 10,
         e = 1e3,
         n = 60 * e,
