@@ -68,12 +68,12 @@ strong {
 .button {
     cursor: pointer;
     padding: 10px 20px;
-    background-color: #2b91af;
     box-shadow: 0 2px 3px rgba(0,0,0,0.3);
     color: #fff;
     display: inline-block;
     text-align: center;
     text-decoration: none;
+    background-color: #B59950;
 }
 
 .button.small {
