@@ -73,7 +73,7 @@ strong {
     display: inline-block;
     text-align: center;
     text-decoration: none;
-    background-color: #B59950;
+    background-color: #1e1e1e;
 }
 
 .button.small {
@@ -83,7 +83,7 @@ strong {
 }
 
 .button:hover {
-    background-color: #1e1e1e;
+    background-color: #B59950;
 }
 
 .button>span {
