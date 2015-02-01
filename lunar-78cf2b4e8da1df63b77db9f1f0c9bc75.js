@@ -1898,7 +1898,7 @@ requestAnimFrame(rf), $(function() {
             3 * n > e && (b(), clearInterval(v))
         },
         p = function() {
-            clearInterval(move_rocket_interval), $(".rocket").addClass("landed"), $(".line").fadeOut(), $.post("/lunar/click", {
+            clearInterval(move_rocket_interval), $(".rocket").addClass("landed"), $(".").fadeOut(), $.post("/lunar/click", {
                 dataType: "script"
             })
         };
@@ -1912,7 +1912,7 @@ requestAnimFrame(rf), $(function() {
         m = function() {
             $("#timer").addClass("loaded")
         };
-    setInterval(c, 10), setInterval(m, 100), move_rocket_interval = setInterval(u, 1e3), setInterval(h, 2500);
+ 
     var v = setInterval(l, 2500),
         g = new Image;
     g.onload = d, g.src = "rickrolled.gif";
@@ -3819,7 +3819,7 @@ var rf = function() {
 requestAnimFrame(rf), $(function() {
 
     var t = 10,
-        e = 1e3,
+        e = 19e6,
         n = 60 * e,
         i = 60 * n,
         r = 24 * i,
