@@ -68,18 +68,19 @@ strong {
 .button {
     cursor: pointer;
     padding: 10px 20px;
-    box-shadow: 0 2px 3px rgba(0,0,0,0.3);
     color: #fff;
     display: inline-block;
     text-align: center;
     text-decoration: none;
     background-color: #1e1e1e;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.3);
 }
 
 .button.small {
+    float: right;
     padding: 6px 15px;
     margin: 22px 5px 0;
-    float: right;
+    margin-left:40px;
 }
 
 .button:hover {
